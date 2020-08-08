@@ -1,0 +1,67 @@
+/*banner 1*/
+.banner1{
+    width: 100%;
+    height: 400px;
+    background-size: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+#selo{
+    background: transparent url('../img/os-eleitos-grande-vencedor-2017_0.png') 0% 0% no-repeat padding-box;
+    width: 130px;
+    height: 130px;
+    padding: 243px 1121px 27px 115px;
+    position: absolute;
+}
+
+/*banner 2*/
+.banner2{
+    width: 100%;
+    height: 415px;
+    background-size: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+#banner2_textos{
+    position: absolute;
+}
+#banner2_texto1{
+    font: Italic 34px/46px FoundryMonoline-ExBdIta ☞;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 263px 0px 7px 95px;
+    margin: 0px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#banner2_texto2{
+    font:  18px/24px FoundryMonoline-Regular;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 0px 0px 29px 95px;
+    margin: 0px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+@media only screen and (max-device-width: 375px) {
+    #banner2_texto1{
+        text-align: center;
+        font: Italic 24px/32px FoundryMonoline-ExBdIta ☞;
+        padding: 276px 55px 0px 54px;
+    }
+    #banner2_texto2{
+        text-align: center;
+        font: 16px/21px FoundryMonoline-Regular ☞;
+        padding: 0px 33px 28px 34px;
+    }
+    #banner1{
+        background: transparent url('../img/Civic_EXL_2017_3_4_Lado_A_Pr') 0% 0% no-repeat padding-box;
+    }
+    #selo{
+        background: transparent url('') 0% 0% no-repeat padding-box;
+    }
+}
+

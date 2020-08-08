@@ -1,0 +1,182 @@
+/*Conteúdo 1*/
+    .cont1_texto1{
+        padding-top: 31px;
+        background-size: 725px 46px;
+    }
+    #cont1_texto1{
+        font: Italic 34px/46px FoundryMonoline-ExBdIta;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    .cont1_texto2{
+        padding-right:120px;
+    }
+    #cont1_texto2{
+        font: 18px/24px FoundryMonoline-Regular;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    #cont1_img1{
+        background: transparent url('../img/Retângulo\ 16') 0% 0% no-repeat padding-box;
+        margin-bottom: 5px;
+        width: 165px;
+        height: 96px;
+        background-size: 165px 96px;
+    }
+    #cont1_img2{
+        background: transparent url('../img/Retângulo\ 19') 0% 0% no-repeat padding-box;
+        margin-bottom: 5px;
+        width: 165px;
+        height: 96px;
+        background-size: 165px 96px;
+        padding-bottom: 12px;
+    }
+    #cont1_img3{
+        background: transparent url('../img/Retângulo\ 21') 0% 0% no-repeat padding-box;
+        margin-bottom: 5px;
+        width: 165px;
+        height: 96px;
+        background-size: 165px 96px;
+        padding-bottom: 12px;
+    }
+    #cont1_img4{
+        width: 100%;
+        height: auto;
+        padding: 60px 0px 0px 30px;
+    }
+
+/*conteudo2*/
+    .cont2_cards{
+        padding:35px 0px 0px 95px;
+    }
+    .cont2_img{
+        padding-right: 40px;
+        height: 180px;
+        background-size: 260px 180px;
+    }
+    .cont2_tit{
+        font: Italic 20px/27px FoundryMonoline-ExBdIta;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        width: 260px;
+        height: 50px;
+        background-size: 260px 50px;
+        margin: 0px;
+        padding-top: 9px;
+    }
+    .cont2_texto{
+        text-align: left;
+        font: 14px/19px FoundryMonoline-Medium;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        width: 260px;
+        height: 140px;
+        background-size: 260px 140px;
+        padding-top: 12px;
+    }
+
+/*conteudo3*/
+    #cont3{
+        padding:0px 40px 0px 95px;
+    }
+    #cont3_texto1{
+        font: Italic 34px/46px FoundryMonoline-ExBdIta ☞;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        padding-bottom: 8px;
+        margin: 0px;
+    }
+    #cont3_texto2{
+        font: 18px/24px FoundryMonoline-Regular ☞;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        margin: 0px;
+    }
+    .cont3_card{
+        width: 260px;
+        height: 372px;
+        padding-right: 20px;
+    }
+    .cont3_img_card{
+        width: 211px;
+        height: 179px;
+        padding:4px 33px 0px 26px;
+        box-sizing: content-box;
+    }
+    .cont3_texto_card{
+        text-align: center;
+        font: 14px/19px FoundryMonoline-Medium;
+        letter-spacing: 0px;
+        color: #000000;
+        opacity: 1;
+        height: 95px;
+    }
+    .cont3_texto_card p{
+        height: 95px;
+    }
+    .cont3_button{
+        width: 180px !important;
+        height: 36px;
+    }
+    #cont3_cards{
+        padding-top:29px;
+    }
+    .cont3_cards_esp{
+        padding-right: 40px;
+    }
+
+@media only screen and (max-device-width: 375px) {
+    /*conteúdo 1*/
+    .cont1_texto2{
+        padding: 0px 20px 0px 20px;
+    }
+    #cont1_texto2{
+        text-align: center;
+        font: 18px/24px FoundryMonoline-Regular ☞;
+    }
+    .cont1_texto1{
+        padding:0px 20px 0px 20px;
+        background-size: 725px 46px;
+    }
+    #cont1_texto1{
+        text-align: center;
+        font: Italic 24px/32px FoundryMonoline-ExBdIta ☞;
+    }
+    #cont1_img1{
+        background: transparent url('') 0% 0% no-repeat padding-box;
+    }
+    #cont1_img2{
+        background: transparent url('') 0% 0% no-repeat padding-box;
+    }
+    #cont1_img3{
+        background: transparent url('') 0% 0% no-repeat padding-box;
+    }
+    #cont1_img123{
+        width: 0px;
+        height: 0px;
+    }
+    #cont1_img4{
+        padding: 14px 20px 35.5px 37px;
+    }
+
+    /*conteúdo 2*/
+    #cont3_texto1{
+        padding-bottom: 8px;
+        margin: 0px;
+        text-align: center;
+        font: Italic 24px/32px FoundryMonoline-ExBdIta ☞;
+    }
+    #cont3_texto2{
+        width: 335px;
+        height: 63px;
+        text-align: center;
+        font: 16px/21px FoundryMonoline-Regular ☞;
+    }
+    #cont3{
+        padding:0px 50px 0px 50px;;
+    }
+}
